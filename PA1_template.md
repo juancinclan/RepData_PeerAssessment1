@@ -155,3 +155,4 @@ ggplot(Final2, aes(x=Final2$interval ,y=Final2$steps, group=1))+geom_line()+geom
 #dev.copy(png, file = "TimeSeriesImputed.png", width=480, height=480) 
 #dev.off() 
 ```
+
